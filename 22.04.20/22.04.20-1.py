@@ -1,6 +1,7 @@
 import random
 
-bullets = [0 for i in range(6)]
+number_of_bullets = int(input("На какое количество патронов расчитана обойма? "))
+bullets = [0 for i in range(number_of_bullets)]
 bullets[0] = 1
 
 a = input(("Введи 1 для начала игры и 0 для окончания: "))
